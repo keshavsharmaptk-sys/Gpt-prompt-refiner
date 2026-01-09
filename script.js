@@ -1,4 +1,4 @@
-const API_KEY = "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";
+const API_KEY = "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";
 
 
 async function refinePrompt() {
