@@ -1,14 +1,30 @@
-<div class="container">
-  <h1>🧠 Prompt Refinement & Evaluation Tool</h1>
-  <p class="subtitle">Improve prompt clarity and evaluate LLM outputs</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>GPT Prompt Refinement Tool</title>
 
-  <label>Original Prompt</label>
-  <textarea id="promptInput" placeholder="Paste the raw prompt here..."></textarea>
+  
+  <link rel="stylesheet" href="style.css" />
+</head>
 
-  <label>Model Output (Optional)</label>
-  <textarea id="outputInput" placeholder="Paste model output here..."></textarea>
+<body>
 
-  <button onclick="refinePrompt()">Refine & Evaluate</button>
+  <div class="container">
+    <h1>🧠 Prompt Refinement & Evaluation Tool</h1>
 
-  <div id="result" class="result-box"></div>
-</div>
+    <label>Original Prompt</label>
+    <textarea id="promptInput"></textarea>
+
+    <label>Model Output (Optional)</label>
+    <textarea id="outputInput"></textarea>
+
+    <button onclick="refinePrompt()">Refine & Evaluate</button>
+
+    <div id="result" class="result-box"></div>
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
