@@ -1,4 +1,5 @@
-const API_KEY = "PASTE_YOUR_OPENAI_API_KEY";
+const API_KEY = "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";
+
 
 async function refinePrompt() {
   const prompt = document.getElementById("promptInput").value;
